@@ -15,7 +15,7 @@ class FinanceiroApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final scheme = ColorScheme.fromSeed(seedColor: const Color(0xFF5B2D8C));
+    final scheme = ColorScheme.fromSeed(seedColor: const Color(0xFF089FD2));
     return MaterialApp(
       title: 'CONSART Financeiro',
       debugShowCheckedModeBanner: false,
@@ -29,7 +29,7 @@ class FinanceiroApp extends StatelessWidget {
       ),
       darkTheme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF5B2D8C),
+          seedColor: const Color(0xFF089FD2),
           brightness: Brightness.dark,
         ),
         useMaterial3: true,
