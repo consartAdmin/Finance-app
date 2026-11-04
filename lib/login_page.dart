@@ -62,15 +62,11 @@ class _LoginPageState extends State<LoginPage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    Icon(Icons.account_balance_wallet_outlined,
-                        size: 64, color: theme.colorScheme.primary),
-                    const SizedBox(height: 12),
+                    Image.asset('assets/logo_consart.png', height: 72),
+                    const SizedBox(height: 20),
                     Text('Financeiro',
                         textAlign: TextAlign.center,
                         style: theme.textTheme.headlineSmall),
-                    Text('CONSART ERP',
-                        textAlign: TextAlign.center,
-                        style: theme.textTheme.bodyMedium),
                     const SizedBox(height: 32),
                     TextFormField(
                       controller: _server,
